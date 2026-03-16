@@ -208,7 +208,7 @@ export default function LandingPage() {
         >
           <PhoneMockup variant="iframe">
             <iframe
-              src="/"
+              src="/app"
               title="BOOP App"
               className="w-full h-full border-0 bg-black"
             />
@@ -436,7 +436,7 @@ export default function LandingPage() {
               </button>
             </form>
           )}
-          <Link to="/" className="inline-block mt-8 font-mono text-xs text-[#E0E7FF]/50 uppercase tracking-widest hover:text-[#00FF9D] transition-colors">
+          <Link to="/app" className="inline-block mt-8 font-mono text-xs text-[#E0E7FF]/50 uppercase tracking-widest hover:text-[#00FF9D] transition-colors">
             ← Back to App
           </Link>
         </motion.div>

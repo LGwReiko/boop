@@ -77,7 +77,7 @@ export default function ProfileView() {
       </div>
 
       <Link
-        to="/waitlist"
+        to="/"
         className="block mt-6 py-3 text-center font-mono text-xs text-[#00FF9D] uppercase tracking-widest border border-[#00FF9D]/30 rounded-xl hover:bg-[#00FF9D]/5 transition-colors"
       >
         Invite Friends → Waitlist
