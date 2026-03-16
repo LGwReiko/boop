@@ -1,0 +1,5 @@
+{
+  "name": "Boop",
+  "description": "The Waze for Dog Safety. Daily forecasts, danger radar, and neighborhood watch for your furry friend.",
+  "requestFramePermissions": ["geolocation"]
+}

@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-serif: "Playfair Display", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-hand: "Caveat", cursive;
+
+  --color-cyber-black: #000000;
+  --color-neon-mint: #00FF9D;
+  --color-bio-red: #FF003C;
+  --color-holo-silver: #E0E7FF;
+}
+
+body {
+  background-color: var(--color-cyber-black);
+  color: var(--color-holo-silver);
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Safe area padding for mobile */
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 16px);
+}
