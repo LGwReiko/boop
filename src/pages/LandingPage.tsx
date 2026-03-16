@@ -157,7 +157,7 @@ export default function LandingPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      await fetch("https://metahomestaging.chat/api/learn/billadd", {
+      await fetch("/api/billadd", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
